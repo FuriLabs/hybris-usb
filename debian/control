@@ -1,18 +1,20 @@
-Source: hybris-usb
+Source: usb-tethering
 Section: net
 Priority: optional
 Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
-Build-Depends: debhelper (>= 13),
-Standards-Version: 4.5.0
-Homepage: https://github.com/mickybart/gnulinux_support
-Vcs-Git: https://github.com/droidian/hybris-usb.git
-Vcs-Browser: https://github.com/droidian/hybris-usb
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Vcs-Git: https://github.com/furilabs/usb-tethering.git
+Vcs-Browser: https://github.com/furilabs/usb-tethering
 
-Package: hybris-usb
+Package: usb-tethering
 Architecture: all
+Breaks: hybris-usb
+Provides: hybris-usb
+Replaces: hybris-usb
 Depends: isc-dhcp-server,
          net-tools,
          ethtool,
          ${shlibs:Depends},
          ${misc:Depends}
-Description: USB control for Android with hybris
+Description: Early debugging USB configuration script 

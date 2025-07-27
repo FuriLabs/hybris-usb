@@ -9,7 +9,7 @@ ConditionPathExists=|/sys/kernel/config/usb_gadget
 
 [Service]
 Type=notify
-ExecStart=/bin/bash /usr/bin/usb-tethering
+ExecStart=/bin/bash /usr/sbin/usb-tethering
 
 [Install]
 WantedBy=multi-user.target

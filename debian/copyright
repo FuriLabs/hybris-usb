@@ -1,12 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: hybris-usb
-Source: http://github.com/mickybart/gnulinux_support
+Upstream-Name: usb-tethering
+Source: http://github.com/furilabs/usb-tethering
 
 Files: *
 Copyright: 2016-2017, Michaël Serpieri <mickybart@pygoscelis.org>
            2020-2023, Droidian Project <info@droidian.org>
+           2023-2025, Bardia Moshiri <bardia@furilabs.com>
 
 Files: debian/*
 Copyright: 2017 JBBgameich <jbb.mail@gmx.de>
            2020-2023, Droidian Project <info@droidian.org>
+           2023-2025, Bardia Moshiri <bardia@furilabs.com>
 License: WTFPL
