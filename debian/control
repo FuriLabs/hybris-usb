@@ -10,7 +10,6 @@ Vcs-Browser: https://github.com/furilabs/usb-tethering
 Package: usb-tethering
 Architecture: all
 Breaks: hybris-usb
-Provides: hybris-usb
 Replaces: hybris-usb
 Depends: isc-dhcp-server,
          net-tools,
